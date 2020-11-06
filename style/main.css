@@ -47,7 +47,7 @@ header nav a:hover{
     font-size: 16px;
     background:linear-gradient(rgba(0,0,0, .50),rgba(0,0,0,.50)100%), url(../img/fundo.jpg);
 
-    height: 600px;
+    height: 500px;
     background-size: cover;
 
     display: flex;
@@ -90,4 +90,22 @@ header nav a:hover{
 
 .botao i{
     margin-right: 5px;
+}
+
+.container{
+    margin-left: 20px;
+}
+
+.container .serie-principal{
+    width: 70%;
+}
+
+.box-serie{
+    height: 100%;
+    width: 100%;
+    display: block;
+}
+
+.carrosel-serie{
+    margin-top: 5px;
 }
