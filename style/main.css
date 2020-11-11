@@ -1,10 +1,13 @@
+
 :root{
     --vermelho: #e50914;
-    --preto:#141414;
+    --preto:#000000;
 }
 
 *{
     margin: 0;
+    margin-left: 10px;
+    margin-top: 5px;
     padding: 0;
     box-sizing: border-box;
 }
@@ -12,25 +15,20 @@
 /*Base*/
 body{
 background: var(--preto);
-font-family: 'Arial';
+font-family: 'arial';
 }
  header .container{
      display: flex;
      flex-direction: row;
      align-items: center;
-     justify-content: row;
-
+     align-content: center;
+     justify-content: flex-start;
  }
-
-header .logo{
-margin-left: 5px;    
-color: var(--vermelho);
-font-family: "Arial Black";
-font-size: 15px 0 2px;
-
-}
-
+ header .logo{
+     margin-left: 0px;
+ }
 header nav a{
+    
     text-decoration: none;
     color: #aaaaaa;
     margin-right: 10px;    
@@ -45,7 +43,7 @@ header nav a:hover{
     font-size: 16px;
     background:linear-gradient(rgba(0,0,0, .50),rgba(0,0,0,.50)100%), url(../img/fundo.jpg);
 
-    height: 80vh;
+    height: 500px;
     background-size: cover;
     background-position: center;
 
@@ -56,18 +54,14 @@ header nav a:hover{
 
 }
 .serie-principal .titulo{
-    margin-left: 0%;
-    margin-top: 10%;
-    font-size: 40px;
+    margin-left: 0px;
 }
 .serie-principal h2{
-    margin-top: 10px;
-    margin-left: 1px;
     font-size: 25px;
     color: rgb(250, 250, 250,.90); 
 }
 .serie-principal p{
-    margin: 10px 10px 10px 0px;
+    margin-right: 10px;
     font-size: 15px;
     font-weight: 500;
     line-height: 15px;
@@ -81,8 +75,8 @@ header nav a:hover{
     color: #fff;
 
     padding: 15px 30px;
+    margin-left: 0px;
     margin-right: 15px;
-    margin-top: 10px;
     font-size: 12px;
 
     cursor: pointer;
@@ -100,11 +94,11 @@ header nav a:hover{
 }
 
 .container{
-    margin-left: 20px;
+
 }
 
 .container .serie-principal{
-    width: 70%;
+    
 }
 
 .box-serie{
@@ -114,5 +108,5 @@ header nav a:hover{
 }
 
 .carrosel-serie{
-    margin-top: 5px;
+    
 }
