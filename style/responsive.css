@@ -25,6 +25,7 @@ header .container{
 .titulo{
     width: 80%;
 }
+}
 
 @media screen and (max-width: 1100px){
     .info-right .destaque-texto p{
@@ -37,6 +38,4 @@ header .container{
         height: 50%;
         border-radius: 20px;
     }
-
-
 }
