@@ -11,6 +11,13 @@
     <!--Arquivos Owl CSS-->
     <link rel="stylesheet" href="style/owl/owl.carousel.min.css">
     <link rel="stylesheet" href="style/owl/owl.theme.default.min.css">
+    <!--Texte-->
+    <link rel="stylesheet" href="../assets/owlcarousel/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="../assets/owlcarousel/assets/owl.theme.default.min.css">
+
+      <!--Texte [if lt IE 9]-->
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script> 
 
     <title>Netflix Clone</title>
 </head>
@@ -52,9 +59,11 @@
             </div>
         </div>
     </main>
-                 <div class="carrosel-serie">
+
+                     <!--Painel de seleção Carrosel-->
+                     <div class="carrosel-serie">
                      <p class="carrosel-titulo">Populares na Netflix</p>
-                     <div class="owl-carousel owl-theme">
+                     <div class="owl-carousel owl-theme"> 
                         <div class="item"><img class="box-serie" src="img/min1.jpg" alt="poster"></div>
                         <div class="item"><img class="box-serie" src="img/min3.jpg" alt="poster"></div>
                         <div class="item"><img class="box-serie" src="img/min4.jpg" alt="poster"></div>
@@ -82,6 +91,7 @@
                     </div>
                 </div>
 
+                <!--Serie em destaque-->
                 <section class="serie-destaque">
                     <div class="destaque-wrapper">
                         <div class="autoplay-left">
@@ -125,6 +135,7 @@
     <script src="js/owl/jquery.min.js"></script>
     <script src="js/owl/owl.carousel.min.js"></script>
     <script src="js/owl/setup.js"></script>
+    
 
 </body>
 </html>
