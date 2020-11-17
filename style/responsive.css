@@ -30,12 +30,12 @@ header .container{
 @media screen and (max-width: 1100px){
     .info-right .destaque-texto p{
         font-weight: normal;
-        Font-size: 15px;
-        margin-top: -25px;
+        Font-size: 12px;
+        margin-top: 0px;
     }
     .autoplay-left iframe{
-        width: 80%;
+        width: 90%;
         height: 50%;
-        border-radius: 20px;
+        border-radius: 10px;
     }
 }
