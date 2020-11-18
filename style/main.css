@@ -79,11 +79,11 @@ header nav a:hover{
     border: none;
     color: #fff;
 
-    padding: 15px;
+    padding: 12px;
     margin-top: 10px;
     margin-left: 10px;
     margin-right: 15px;
-    font-size: 12px;
+    font-size: 10px;
 
     cursor: pointer;
     transition: .3s ease all;
